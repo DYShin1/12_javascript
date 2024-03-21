@@ -3,12 +3,12 @@
 const foodList = ['물회', '삼계탕', '냉면', '수박', '물회'];
 
 /* indexOf */
-onsole.log(`foodList.indexOf('물회'): ${foodList.indexOf('물회')}`);        // 0
+console.log(`foodList.indexOf('물회'): ${foodList.indexOf('물회')}`);        // 0
 console.log(`foodList.indexOf('삼겹살'): ${foodList.indexOf('삼겹살')}`);       // -1(없으면)
 
 /* includes */
 console.log(`foodList.includes('물회'): ${foodList.includes('물회')}`);       
-console.log(`foodList.indexOf('삼겹살'): ${foodList.indexOf('삼겹살')}`); 
+console.log(`foodList.includes('삼겹살'): ${foodList.includes('삼겹살')}`); 
 
 const chineseFood = ['짜장면', '짬뽕', '탕수육'];
 
